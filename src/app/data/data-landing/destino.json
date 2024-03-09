@@ -10,7 +10,7 @@
           "destinoTarjetaModel_lugar_tour": "CUSCO",
           "destinoTarjetaModel_descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nobis exercitationem ad! Consectetur quisquam dolorum voluptatem accusamus dolore placeat nobis quidem maxime dignissimos, animi eos est quasi recusandae nulla facilis.",
           "destinoTarjetaModel_Visitas": 13,
-          "destinoTarjetaModel_imagen": "../../../../../assets/img/img-destinos.jpg"
+          "destinoTarjetaModel_imagen": "https://img.freepik.com/foto-gratis/pintura-lago-montana-montana-al-fondo_188544-9126.jpg?size=626&ext=jpg&ga=GA1.1.965428650.1709929047&semt=ais"
         },
         {
           "destinoTarjetaModel_id": 2,
