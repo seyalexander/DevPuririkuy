@@ -12,4 +12,5 @@ export class DestinosTarjetaComponent {
   @Input() destinoTours: String = '';
   @Input() detalleTours: String = '';
   @Input() visitasTours: String = '';
+  @Input() imagenTours: String = '';
 }

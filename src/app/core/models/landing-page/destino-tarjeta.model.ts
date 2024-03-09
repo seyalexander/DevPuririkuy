@@ -3,4 +3,5 @@ export class destinoTarjetaModel {
   destinoTarjetaModel_lugar_tour: String = '';
   destinoTarjetaModel_descripcion: String = '';
   destinoTarjetaModel_Visitas: number = 0.0;
+  destinoTarjetaModel_imagen: String = '';
 }

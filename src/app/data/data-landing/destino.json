@@ -9,19 +9,22 @@
           "destinoTarjetaModel_id": 1,
           "destinoTarjetaModel_lugar_tour": "CUSCO",
           "destinoTarjetaModel_descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nobis exercitationem ad! Consectetur quisquam dolorum voluptatem accusamus dolore placeat nobis quidem maxime dignissimos, animi eos est quasi recusandae nulla facilis.",
-          "destinoTarjetaModel_Visitas": 13
+          "destinoTarjetaModel_Visitas": 13,
+          "destinoTarjetaModel_imagen": "../../../../../assets/img/img-destinos.png"
         },
         {
           "destinoTarjetaModel_id": 2,
           "destinoTarjetaModel_lugar_tour": "CUSCO 1",
           "destinoTarjetaModel_descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nobis exercitationem ad! Consectetur quisquam dolorum voluptatem accusamus dolore placeat nobis quidem maxime dignissimos, animi eos est quasi recusandae nulla facilis.",
-          "destinoTarjetaModel_Visitas": 8
+          "destinoTarjetaModel_Visitas": 8,
+          "destinoTarjetaModel_imagen": "../../../../../assets/img/img-destinos.png"
         },
         {
           "destinoTarjetaModel_id": 3,
           "destinoTarjetaModel_lugar_tour": "CUSCO 2",
           "destinoTarjetaModel_descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nobis exercitationem ad! Consectetur quisquam dolorum voluptatem accusamus dolore placeat nobis quidem maxime dignissimos, animi eos est quasi recusandae nulla facilis.",
-          "destinoTarjetaModel_Visitas": 24
+          "destinoTarjetaModel_Visitas": 24,
+          "destinoTarjetaModel_imagen": "../../../../../assets/img/img-destinos.png"
         }
       ]
     }

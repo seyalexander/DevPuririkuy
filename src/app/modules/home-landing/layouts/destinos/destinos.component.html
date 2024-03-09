@@ -11,6 +11,7 @@
     @for (tarjeta of item.idDestinoTarjeta; track $index) {
     <app-destinos-tarjeta
       [destinoTours]="tarjeta.destinoTarjetaModel_lugar_tour"
+      [imagenTours]="tarjeta.destinoTarjetaModel_imagen"
       [detalleTours]="tarjeta.destinoTarjetaModel_descripcion"
       [visitasTours]="tarjeta.destinoTarjetaModel_Visitas.toString()"
     />
