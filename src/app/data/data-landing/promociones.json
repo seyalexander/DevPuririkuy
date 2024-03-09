@@ -7,19 +7,19 @@
       "id_tarjeta_promociones": [
         {
           "promocionesTarjetaModel_id" : 1,
-          "promocionesTarjetaModel_imagen": "https://www.pexels.com/es-es/foto/punto-de-referencia-estados-unidos-techo-turismo-16270063/"
+          "promocionesTarjetaModel_imagen": "https://seyalexander.github.io/DevPuririkuy/assets/img/img-promociones.png"
         },
         {
           "promocionesTarjetaModel_id" : 2,
-          "promocionesTarjetaModel_imagen": "https://www.pexels.com/es-es/foto/punto-de-referencia-estados-unidos-techo-turismo-16270063/"
+          "promocionesTarjetaModel_imagen": "https://seyalexander.github.io/DevPuririkuy/assets/img/img-promociones.png"
         },
         {
           "promocionesTarjetaModel_id" : 3,
-          "promocionesTarjetaModel_imagen": "https://www.pexels.com/es-es/foto/punto-de-referencia-estados-unidos-techo-turismo-16270063/"
+          "promocionesTarjetaModel_imagen": "https://seyalexander.github.io/DevPuririkuy/assets/img/img-promociones.png"
         },
         {
           "promocionesTarjetaModel_id" : 4,
-          "promocionesTarjetaModel_imagen": "https://www.pexels.com/es-es/foto/punto-de-referencia-estados-unidos-techo-turismo-16270063/"
+          "promocionesTarjetaModel_imagen": "https://seyalexander.github.io/DevPuririkuy/assets/img/img-promociones.png"
         }
       ]
     }
