@@ -53,3 +53,9 @@ li:hover a {
   transition: all 0.1s linear;
   color: #43b7a2;
 }
+
+@media (max-width: 426px)  {
+  li {
+    display: none;
+  }
+}
