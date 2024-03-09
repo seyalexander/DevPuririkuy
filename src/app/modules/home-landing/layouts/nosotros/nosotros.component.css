@@ -36,7 +36,7 @@
 }
 
 .bg-imagen-nosotros {
-  background: url("../../../../../assets/img/nosotros.jpg");
+  background-image: url("https://seyalexander.github.io/DevPuririkuy/media/nosotros-QDCEOYOG.jpg");
   background-size: cover;
   background-position-y: center;
 }
