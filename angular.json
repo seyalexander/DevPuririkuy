@@ -16,6 +16,7 @@
             "outputPath": "dist/pagina-puririkui",
             "index": "src/index.html",
             "browser": "src/main.ts",
+
             "polyfills": [
               "zone.js"
             ],
@@ -93,8 +94,14 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "8cc7bb2c-08d3-4537-bfd2-f96ec9096a44"
   }
 }

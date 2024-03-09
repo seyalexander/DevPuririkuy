@@ -1,0 +1,94 @@
+
+.Servicios,
+.servicios-encabezado,
+.servicios-container-items {
+  display: flex;
+}
+
+.Servicios {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.Servicios {
+  flex-direction: column;
+  gap: 2rem;
+  padding: 4rem 24px;
+}
+
+.servicios-encabezado {
+  justify-content: space-evenly;
+}
+
+.servicios-container-title,
+.servicios-encabezado h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.servicios-container-title {
+  justify-content: center;
+  align-items: center;
+}
+
+.servicios-titulo {
+  display: inline-block;
+  font-size: 4rem;
+}
+
+.servicios-titulo span {
+  color: #43b7a2;
+}
+
+.servicio-descripcion {
+  font-size: 16px;
+  width: 50%;
+  color: #494949;
+}
+
+.servicios-container-items {
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0 2rem;
+  box-sizing: border-box;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+
+@media (max-width: 426px) {
+  .servicios-encabezado {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .servicios-titulo {
+    font-size: 3rem;
+  }
+
+  .servicio-descripcion {
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .servicios-container-items {
+    width: 100%;
+    gap: 0.5rem;
+    padding: 0 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  app-servicios-tarjeta {
+    width: 48%;
+  }
+}
+
+
+
+

@@ -1,0 +1,35 @@
+{
+  "data": [
+    {
+      "id_item_servicios": 1,
+      "titulo_servicios": "SERVICIOS",
+      "texto_Detalle": "Lorem ipsum dolor sit amet consectetur. Et id pellentesque sed sit praesent. Quis eu eget eleifend venenatis lectus nisl. Et vitae ornare eget phasellus mattis ut. Tristique duis sollicitudin convallis vitae scelerisque quam. Phasellus bibendum velit facilisis lacus enim sed feugiat interdum.",
+      "id_tarjeta_servicio": [
+        {
+          "servicioTarjetaModel_id": 1,
+          "servicioTarjetaModel_detalle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit soluta perferendis explicabo",
+          "servicioTarjetaModel_precio": "2025.00",
+          "servicioTarjetaModel_lugares": "Lima - Trujillo - Cusco"
+        },
+        {
+          "servicioTarjetaModel_id": 2,
+          "servicioTarjetaModel_detalle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit soluta perferendis explicabo",
+          "servicioTarjetaModel_precio": "1975.00",
+          "servicioTarjetaModel_lugares": "Lima - Ica - Cusco"
+        },
+        {
+          "servicioTarjetaModel_id": 3,
+          "servicioTarjetaModel_detalle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit soluta perferendis explicabo",
+          "servicioTarjetaModel_precio": "6842.00",
+          "servicioTarjetaModel_lugares": "Lima - Arequipa - Cusco"
+        },
+        {
+          "servicioTarjetaModel_id": 4,
+          "servicioTarjetaModel_detalle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit soluta perferendis explicabo",
+          "servicioTarjetaModel_precio": "4851.00",
+          "servicioTarjetaModel_lugares": "Lima - Cajamarca - Cusco"
+        }
+      ]
+    }
+  ]
+}

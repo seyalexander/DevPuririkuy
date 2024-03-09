@@ -1,0 +1,16 @@
+<div class="Nosotros-container-wrapper">
+  @for (item of dataNosotros; track $index) {
+    <div class="Nosotros-container-item">
+      <div class="Nosotros-bg-nosotros">
+        <div [class]="[item.clase_bg_item]"></div>
+        <h3>{{ item.titulo_nosotros }}</h3>
+      </div>
+      <div class="container-texto">
+        <p>
+          {{ item.texto_detalle }}
+        </p>
+      </div>
+    </div>
+    }
+
+</div>

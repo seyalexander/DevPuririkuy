@@ -1,0 +1,63 @@
+
+.promociones-item {
+  width: 17rem;
+  height: 17rem;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.5s ease;
+}
+
+.container-hover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 10px;
+  background-color: rgba(18, 18, 18, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+
+.container-hover i {
+  font-size: 3rem;
+  color: #ffb135;
+}
+
+.container-hover span {
+  color: white;
+  font-weight: 600;
+}
+
+.container-imagen {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+}
+
+.container-imagen img {
+  width: 100%;
+  height: 100%;
+}
+
+.container-hover {
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.promociones-item:hover .container-hover {
+  transition: all 0.5s ease;
+  opacity: 1;
+  cursor: pointer;
+}
+
+@media (max-width: 426px) {
+  .promociones-item {
+    width: 100%;
+    height: 12rem;
+    overflow: hidden;
+    transition: all 0.5s ease;
+  }
+}

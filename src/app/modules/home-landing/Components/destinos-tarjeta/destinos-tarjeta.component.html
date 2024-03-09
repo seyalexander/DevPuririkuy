@@ -1,0 +1,26 @@
+<div class="destino-item-wrap">
+  <div class="encabezado-destino">
+    <div class="encabezado-container-icon">
+      <i class="uil uil-map-marker"></i>
+    </div>
+    <h3 class="encabezado-titulo">TOURS {{destinoTours}}</h3>
+  </div>
+  <div class="container-imagen-destinos">
+    <img src="../../../assets/img/img-destinos.png" alt="" />
+  </div>
+  <div class="detalle-description-destino">
+    <h3 class="titulo-detalle-description-destino">Descripción</h3>
+    <p class="parrafo-detalle-description-destino">
+      {{detalleTours}}
+    </p>
+    <div class="container-cantidad-vistas-destino">
+      <i class="uil uil-star"></i>
+      <span class="detalle-visitas-destino">Visitas</span>
+      <span class="detalle-visitas-cantidad-destino">{{visitasTours}} M</span>
+    </div>
+    <hr class="divisor-destinos" />
+    <div class="container-button">
+      <app-button-fill [claseButton]="'btn-destinos'"/>
+    </div>
+  </div>
+</div>

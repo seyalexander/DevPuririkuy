@@ -1,0 +1,69 @@
+.promociones-encabezado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.promociones-container-title {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.promociones-titulo {
+  display: inline-block;
+  font-size: 4rem;
+}
+
+.promociones-titulo span {
+  color: #359483;
+}
+
+.destino-encabezado h2 {
+  margin: 0;
+  padding: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.promociones-descripcion {
+  max-width: 80%;
+  font-size: 16px;
+  color: #38505a;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 1.5rem;
+}
+
+.promociones-container-items {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0 2rem;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+@media (max-width: 426px) {
+  .promociones-container-items {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0 0.4rem;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+
+  .promociones-titulo {
+    font-size: 3rem;
+  }
+
+  app-promociones-tarjeta {
+    width: 47%;
+  }
+
+}

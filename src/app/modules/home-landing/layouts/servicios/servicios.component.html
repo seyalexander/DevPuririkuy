@@ -1,0 +1,19 @@
+@for (item of dataDatosServicios; track $index) {
+  <div class="servicios-encabezado">
+    <div class="servicios-container-title">
+      <app-titulos-sections [textLeft]="'Servi'" [textRigth]="'cios'"/>
+    </div>
+    <p class="servicio-descripcion">
+      {{ item.texto_Detalle }}
+    </p>
+  </div>
+  <div class="servicios-container-items">
+    @for (Tarjeta of item.id_tarjeta_servicio; track $index) {
+    <app-servicios-tarjeta
+      [detalleTarjeta]="Tarjeta.servicioTarjetaModel_detalle"
+      [precioTarjeta]="Tarjeta.servicioTarjetaModel_precio"
+      [lugaresTarjeta]="Tarjeta.servicioTarjetaModel_lugares"
+    />
+    }
+  </div>
+  }

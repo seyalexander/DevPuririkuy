@@ -1,0 +1,20 @@
+.titulo-texto{
+  display: inline-block;
+  font-size: 4rem;
+  color: #131313;
+}
+
+.titulo-texto span {
+  color: #359483;
+  animation:  textBgBlanco 2.5s  infinite forwards alternate;
+}
+
+@keyframes textBgBlanco {
+  from {
+    color: #359483;
+  }
+
+  to {
+    color: #76A6BC;
+  }
+}

@@ -1,0 +1,19 @@
+@for (item of dataDestinos; track $index) {
+  <div class="destino-encabezado">
+    <div class="destino-container-title">
+      <h2 class="destino-titulo">Des<span>tinos</span></h2>
+    </div>
+    <p class="destino-descripcion">
+      {{ item.destinoModel_detalle }}
+    </p>
+  </div>
+  <div class="destino-container-items">
+    @for (tarjeta of item.idDestinoTarjeta; track $index) {
+    <app-destinos-tarjeta
+      [destinoTours]="tarjeta.destinoTarjetaModel_lugar_tour"
+      [detalleTours]="tarjeta.destinoTarjetaModel_descripcion"
+      [visitasTours]="tarjeta.destinoTarjetaModel_Visitas.toString()"
+    />
+    }
+  </div>
+  }
