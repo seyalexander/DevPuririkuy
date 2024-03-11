@@ -57,8 +57,26 @@
   margin-top: 2rem;
 }
 
+@media (max-width: 320px) {
+  .servicios-encabezado {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-@media (max-width: 426px) {
+  .servicios-titulo {
+    font-size: 3rem;
+  }
+
+  .servicio-descripcion {
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
+@media (321px <= width <= 426px) {
   .servicios-encabezado {
     flex-direction: column;
     justify-content: center;

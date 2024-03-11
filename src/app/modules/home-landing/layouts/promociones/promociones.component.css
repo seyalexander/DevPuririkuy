@@ -30,7 +30,6 @@
 
 .promociones-descripcion {
   max-width: 80%;
-  font-size: 16px;
   color: #38505a;
   font-weight: 600;
   font-size: 1rem;
@@ -48,7 +47,23 @@
   margin-top: 1.5rem;
 }
 
-@media (max-width: 426px) {
+@media (max-width: 320px)  {
+  .promociones-titulo {
+    font-size: 3rem;
+  }
+
+  .promociones-descripcion {
+    max-width: 100%;
+    font-weight: 500;
+  }
+
+  app-promociones-tarjeta {
+    width: 100%;
+  }
+
+}
+
+@media (321px <= width <= 426px) {
   .promociones-container-items {
     width: 100%;
     display: flex;

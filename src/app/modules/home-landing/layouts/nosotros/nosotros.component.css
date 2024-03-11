@@ -71,7 +71,30 @@
   transition: all 1s ease;
 }
 
-@media (max-width: 479px) {
+@media (max-width: 320px) {
+
+  .Nosotros-container-wrapper {
+    width: 100%;
+    flex-direction: column;
+    border-radius: 00px;
+  }
+
+  .Nosotros-container-item {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-bottom: 1rem;
+  }
+
+  .bg-imagen-nosotros,
+  .bg-imagen-objetivo {
+    height: 15rem;
+  }
+
+
+}
+
+@media (321px <= width <= 426px) {
   .Nosotros-container-wrapper {
     width: 100%;
     flex-direction: column;
@@ -83,6 +106,8 @@
     position: relative;
     padding-bottom: 3rem;
   }
+
+
 }
 
 @media (600px <= width <= 799px) {
