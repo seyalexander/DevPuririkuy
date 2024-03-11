@@ -72,8 +72,8 @@
 @media (600px <= width <= 799px) {
 
   .promociones-container-items {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
   }
 }

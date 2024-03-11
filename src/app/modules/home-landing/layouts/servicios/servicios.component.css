@@ -110,8 +110,11 @@
     width: 100%;
     gap: 0.5rem;
     padding: 0 1rem;
-    display: grid;
+    /* display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 1rem; */
+    display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
   }
 
