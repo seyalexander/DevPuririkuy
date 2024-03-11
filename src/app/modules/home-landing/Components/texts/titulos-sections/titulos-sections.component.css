@@ -18,3 +18,9 @@
     color: #76A6BC;
   }
 }
+
+@media (max-width: 426px) {
+  .titulo-texto{
+    font-size: 3rem;
+  }
+}

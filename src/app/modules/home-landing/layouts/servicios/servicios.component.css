@@ -79,16 +79,44 @@
     width: 100%;
     gap: 0.5rem;
     padding: 0 1rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
   }
 
   app-servicios-tarjeta {
-    width: 48%;
+    width: auto;
   }
 }
 
+@media (600px <= width <= 799px) {
+  .servicios-encabezado {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
+  .servicios-titulo {
+    font-size: 4rem;
+  }
 
+  .servicio-descripcion {
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+  }
 
+  .servicios-container-items {
+    width: 100%;
+    gap: 0.5rem;
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  app-servicios-tarjeta {
+    width: auto;
+  }
+
+}

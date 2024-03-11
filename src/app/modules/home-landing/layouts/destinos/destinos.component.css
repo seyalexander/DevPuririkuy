@@ -78,3 +78,38 @@
     justify-content: center;
   }
 }
+
+@media (600px <= width <= 799px) {
+  .destino-encabezado {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    pad: 0 1rem;
+  }
+
+  .destino-container-title {
+    text-align: center;
+  }
+
+  .destino-titulo {
+    display: inline-block;
+    font-size: 4rem;
+  }
+
+  .destino-descripcion {
+    width: 80%;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .destino-container-items {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0 2rem;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+}
