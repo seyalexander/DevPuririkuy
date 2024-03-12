@@ -1,10 +1,8 @@
 import { DestinosService } from './../../core/services/landing-page/destinos/destinos.service';
 import { ServiciosService } from './../../core/services/landing-page/servicios/servicios.service';
 import { Component } from '@angular/core';
-import { ServiciosTarjetaComponent } from './Components/servicios-tarjeta/servicios-tarjeta.component';
-import { DestinosTarjetaComponent } from './Components/destinos-tarjeta/destinos-tarjeta.component';
-import { PromocionesTarjetaComponent } from './Components/promociones-tarjeta/promociones-tarjeta.component';
-import { NosotrosTarjetasComponent } from './Components/nosotros-tarjetas/nosotros-tarjetas.component';
+import { ServiciosTarjetaComponent } from './Components/targets/servicios/servicios-tarjeta/servicios-tarjeta.component';
+import { DestinosTarjetaComponent } from './Components/targets/destinos/destinos-tarjeta/destinos-tarjeta.component';import { PromocionesTarjetaComponent } from './Components/targets/promociones/promociones-tarjeta/promociones-tarjeta.component';
 import { nosotrosModel } from '../../core/models/landing-page/nosotros.model';
 import { Subscription } from 'rxjs';
 import { NosotrosService } from '../../core/services/landing-page/nosotros/nosotros.service';
@@ -26,8 +24,6 @@ import { PromocionesComponent } from './layouts/promociones/promociones.componen
   imports: [
     ServiciosTarjetaComponent,
     DestinosTarjetaComponent,
-    PromocionesTarjetaComponent,
-    NosotrosTarjetasComponent,
     NavigateComponent,
     ServiciosComponent,
     VentajasComponent,

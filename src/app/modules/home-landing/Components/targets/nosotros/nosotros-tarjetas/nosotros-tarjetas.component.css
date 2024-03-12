@@ -1,0 +1,143 @@
+.Nosotros-container-item,
+.Nosotros-bg-nosotros,
+.Nosotros-bg-nosotros {
+  position: relative;
+}
+
+.Nosotros-container-item,
+.Nosotros-bg-nosotros {
+  width: 100%;
+}
+
+.Nosotros-container-item {
+  height: 30rem;
+}
+
+.Nosotros-bg-nosotros {
+  height: 50%;
+  overflow: hidden;
+}
+
+.bg-imagen-nosotros,
+.bg-imagen-objetivo {
+  width: 100%;
+  height: 100%;
+  filter: brightness(75%);
+  transition: all 0.8s ease;
+}
+
+.bg-imagen-nosotros {
+  background-image: url("https://seyalexander.github.io/DevPuririkuy/assets/img/nosotros.jpg");
+}
+
+.bg-imagen-objetivo {
+  background: url("https://seyalexander.github.io/DevPuririkuy/assets/img/objetivos.jpg");
+}
+
+.bg-imagen-nosotros,
+.bg-imagen-objetivo {
+  background-size: cover;
+  background-position-y: center;
+}
+
+.Nosotros-bg-nosotros h3 {
+  position: absolute;
+  z-index: 40;
+  bottom: 0;
+  color: white;
+  font-size: 42px;
+  padding-left: 1rem;
+}
+
+.container-texto {
+  padding: 2rem 2rem;
+}
+
+.container-texto p {
+  color: #494949;
+}
+
+.Nosotros-container-item:hover .bg-imagen-nosotros,
+.Nosotros-container-item:hover .bg-imagen-objetivo {
+  width: 120%;
+  transition: all 1s ease;
+}
+
+@media (max-width: 320px) {
+  .Nosotros-container-item {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-bottom: 1rem;
+  }
+
+  .bg-imagen-nosotros,
+  .bg-imagen-objetivo {
+    height: 15rem;
+  }
+}
+
+@media (321px <= width <= 426px) {
+  .Nosotros-container-item {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-bottom: 1rem;
+  }
+
+  .bg-imagen-nosotros,
+  .bg-imagen-objetivo {
+    height: 15rem;
+  }
+
+  .Nosotros-container-item {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-bottom: 2rem;
+  }
+}
+
+@media (min-width: 427px) and (max-width: 768px) {
+  .Nosotros-container-item {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-bottom: 1rem;
+  }
+
+  .bg-imagen-nosotros,
+  .bg-imagen-objetivo {
+    height: 15rem;
+  }
+
+  .Nosotros-container-item {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-bottom: 2rem;
+  }
+
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .Nosotros-container-item {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-bottom: 1rem;
+  }
+
+  .bg-imagen-nosotros,
+  .bg-imagen-objetivo {
+    height: 15rem;
+  }
+
+  .Nosotros-container-item {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-bottom: 2rem;
+  }
+}

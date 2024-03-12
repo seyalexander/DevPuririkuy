@@ -7,91 +7,12 @@
   box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.1);
 }
 
-
-.Nosotros-container-item,
-.Nosotros-bg-nosotros,
-.Nosotros-bg-nosotros {
-  position: relative;
-}
-
-.Nosotros-container-item {
-  width: 50%;
-  height: 30rem;
-}
-
-.Nosotros-bg-nosotros {
-  width: 100%;
-}
-
-.Nosotros-bg-nosotros {
-  height: 50%;
-  overflow: hidden;
-}
-
-.bg-imagen-nosotros,
-.bg-imagen-objetivo {
-  width: 100%;
-  height: 100%;
-  filter: brightness(75%);
-  transition: all 0.8s ease;
-}
-
-.bg-imagen-nosotros {
-  background-image: url("https://seyalexander.github.io/DevPuririkuy/assets/img/nosotros.jpg");
-  background-size: cover;
-  background-position-y: center;
-}
-
-.bg-imagen-objetivo {
-  background: url("https://seyalexander.github.io/DevPuririkuy/assets/img/objetivos.jpg") no-repeat;
-  background-size: cover;
-  background-position-y: center;
-}
-
-.Nosotros-bg-nosotros h3 {
-  position: absolute;
-  z-index: 40;
-  bottom: 0;
-  color: white;
-  font-size: 42px;
-  padding-left: 1rem;
-}
-
-.container-texto {
-  padding: 2rem 2rem;
-}
-
-.container-texto p {
-  color: #494949;
-}
-
-.Nosotros-container-item:hover .bg-imagen-nosotros,
-.Nosotros-container-item:hover .bg-imagen-objetivo {
-  width: 120%;
-  transition: all 1s ease;
-}
-
 @media (max-width: 320px) {
-
   .Nosotros-container-wrapper {
     width: 100%;
     flex-direction: column;
     border-radius: 0px;
   }
-
-  .Nosotros-container-item {
-    width: 100%;
-    height: auto;
-    position: relative;
-    padding-bottom: 1rem;
-  }
-
-  .bg-imagen-nosotros,
-  .bg-imagen-objetivo {
-    height: 15rem;
-  }
-
-
 }
 
 @media (321px <= width <= 426px) {
@@ -99,38 +20,20 @@
     width: 100%;
     flex-direction: column;
   }
+}
 
-  .bg-imagen-nosotros,
-  .bg-imagen-objetivo {
-    height: 15rem;
-  }
-
-  .Nosotros-container-item {
+@media (min-width: 427px) and (max-width: 768px) {
+  .Nosotros-container-wrapper {
+    display: flex;
     width: 100%;
-    height: auto;
-    position: relative;
-    padding-bottom: 3rem;
   }
-
 
 }
 
-/* @media (600px <= width <= 799px) */
-@media (min-width: 600) and (max-width: 799px) {
+@media (min-width: 769px) and (max-width: 1024px) {
   .Nosotros-container-wrapper {
-    width: 100%;
-    flex-direction: column;
+    display: flex;
+    width: 80%;
   }
 
-  .bg-imagen-nosotros,
-  .bg-imagen-objetivo {
-    height: 15rem;
-  }
-
-  .Nosotros-container-item {
-    width: 100%;
-    height: auto;
-    position: relative;
-    padding-bottom: 3rem;
-  }
 }

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { PromocionesTarjetaComponent } from '../../Components/promociones-tarjeta/promociones-tarjeta.component';
+import { PromocionesTarjetaComponent } from '../../Components/targets/promociones/promociones-tarjeta/promociones-tarjeta.component';
 import { TitulosSectionsComponent } from '../../Components/texts/titulos-sections/titulos-sections.component';
 
 @Component({

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-nosotros-tarjetas',
@@ -8,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './nosotros-tarjetas.component.css'
 })
 export class NosotrosTarjetasComponent {
-
+  @Input() nosotrosClaseImagen: String = '';
+  @Input() nosotrosTitulo: String = '';
+  @Input() nosotrosParrafo: String = '';
 }

@@ -35,19 +35,18 @@ article {
 }
 
 /*---------------------------- NOSOTROS -----------------------------*/
-.Nostros {
-  display: flex;
-}
 
 .Nostros {
   width: 100%;
   height: auto;
+  display: flex;
   box-sizing: border-box;
   justify-content: center;
   padding: 4rem 1.5rem;
 }
 
 app-nosotros {
+  width: 100%;
   display: grid;
   place-items: center;
 }
@@ -116,9 +115,8 @@ app-nosotros {
   /*---------------------------- SERVICIOS -----------------------------*/
 
   .Servicios {
-    flex-direction: column;
     gap: 2rem;
-    padding: 1rem 0px;
+    padding: 1rem 1px;
   }
 
    /*---------------------------- DESTINO -----------------------------*/
@@ -165,9 +163,9 @@ app-nosotros {
   /*---------------------------- SERVICIOS -----------------------------*/
 
   .Servicios {
-    flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
     padding: 1rem 0px;
+    box-sizing: border-box;
   }
 
   /*---------------------------- DESTINO -----------------------------*/
@@ -198,4 +196,21 @@ app-nosotros {
   .Servicios {
     display: flex;
   }
+}
+
+@media (min-width: 427) and (max-width: 768px) {
+  .Nostros {
+    width: 100%;
+    flex-direction: column;
+    padding: 1rem 0;
+    background-color: red;
+  }
+
+  app-nosotros {
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px)  {
+
 }

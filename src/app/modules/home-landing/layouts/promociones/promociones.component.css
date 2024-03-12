@@ -31,9 +31,10 @@
 .promociones-descripcion {
   max-width: 80%;
   color: #38505a;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 1rem;
   margin-top: 1.5rem;
+  text-align: center;
 }
 
 .promociones-container-items {

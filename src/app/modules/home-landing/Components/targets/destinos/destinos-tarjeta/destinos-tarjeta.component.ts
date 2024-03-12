@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { ButtonFillComponent } from '../buttons/button-fill/button-fill.component';
+import { ButtonFillComponent } from '../../../buttons/button-fill/button-fill.component';
 
 @Component({
   selector: 'app-destinos-tarjeta',

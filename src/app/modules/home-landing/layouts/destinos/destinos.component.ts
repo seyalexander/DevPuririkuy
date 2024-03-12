@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { destinoModel } from '../../../../core/models/landing-page/destino.model';
-import { DestinosTarjetaComponent } from '../../Components/destinos-tarjeta/destinos-tarjeta.component';
+import { DestinosTarjetaComponent } from '../../Components/targets/destinos/destinos-tarjeta/destinos-tarjeta.component';
 
 @Component({
   selector: 'app-destinos',
