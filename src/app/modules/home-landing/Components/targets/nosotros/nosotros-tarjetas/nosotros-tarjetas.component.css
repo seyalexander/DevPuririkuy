@@ -10,7 +10,7 @@
 }
 
 .Nosotros-container-item {
-  height: 30rem;
+  height: 50rem;
 }
 
 .Nosotros-bg-nosotros {
@@ -57,11 +57,11 @@
   color: #494949;
 }
 
-.Nosotros-container-item:hover .bg-imagen-nosotros,
+/* .Nosotros-container-item:hover .bg-imagen-nosotros,
 .Nosotros-container-item:hover .bg-imagen-objetivo {
   width: 120%;
   transition: all 1s ease;
-}
+} */
 
 @media (max-width: 320px) {
   .Nosotros-container-item {

@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
 import { ServiciosTarjetaComponent } from './Components/targets/servicios/servicios-tarjeta/servicios-tarjeta.component';
 import { DestinosTarjetaComponent } from './Components/targets/destinos/destinos-tarjeta/destinos-tarjeta.component';import { PromocionesTarjetaComponent } from './Components/targets/promociones/promociones-tarjeta/promociones-tarjeta.component';
 import { nosotrosModel } from '../../core/models/landing-page/nosotros.model';
-import { Subscription } from 'rxjs';
+import { Observable, of, Subscription } from 'rxjs';
 import { NosotrosService } from '../../core/services/landing-page/nosotros/nosotros.service';
 import { serviciosModel } from '../../core/models/landing-page/servicios.model';
 import { destinoModel } from '../../core/models/landing-page/destino.model';
@@ -17,6 +17,8 @@ import { FooterComponent } from '../../shared/footer/footer.component';
 import { DestinosComponent } from './layouts/destinos/destinos.component';
 import { NosotrosComponent } from './layouts/nosotros/nosotros.component';
 import { PromocionesComponent } from './layouts/promociones/promociones.component';
+import { OtrosServiciosComponent } from './layouts/otros-servicios/otros-servicios.component';
+import { ContactoComponent } from './layouts/contacto/contacto.component';
 
 @Component({
   selector: 'app-home-landing',
@@ -30,7 +32,9 @@ import { PromocionesComponent } from './layouts/promociones/promociones.componen
     FooterComponent,
     DestinosComponent,
     NosotrosComponent,
-    PromocionesComponent
+    PromocionesComponent,
+    OtrosServiciosComponent,
+    ContactoComponent
   ],
   templateUrl: './home-landing.component.html',
   styleUrl: './home-landing.component.css'
@@ -42,6 +46,7 @@ export class HomeLandingComponent {
   datosDestinos: Array<destinoModel> = [];
   datosPromociones: Array<promocionesModel> = [];
 
+  datosNosotros$ :Observable<nosotrosModel[]> = of([]);
 
   listObservers$: Array<Subscription> = [];
 
@@ -54,6 +59,7 @@ export class HomeLandingComponent {
   ) { }
 
   ngOnInit(): void {
+    this.datosNosotros$ = this.nosotrosService.getNosotros();
     const ObservarDatosNosotros = this.nosotrosService.datosNosotros$.subscribe(Response => {
       this.datosNosotros = Response
     })
@@ -70,9 +76,10 @@ export class HomeLandingComponent {
       this.datosPromociones = Response
     })
 
-    this.listObservers$ = [ObservarDatosNosotros]
-    this.listObservers$ = [ObservarDatosServicios]
-    this.listObservers$ = [ObservarDatosDestinos]
-    this.listObservers$ = [ObservarDatosPromociones]
+
+  }
+
+  ngOnDestroy(): void {
+    this.listObservers$.forEach(subscription => subscription.unsubscribe());
   }
 }

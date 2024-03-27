@@ -1,5 +1,10 @@
 @for (item of dataDatosServicios; track $index) {
-<app-servicios-header [textoDetalle]="item.texto_Detalle" />
+<!-- <app-servicios-header [textoDetalle]="item.texto_Detalle" /> -->
+<app-servicios-header
+  [textoDetalle]="
+    'En Puririkuy contamos con paquetes turísticos para disfrutar de las vacaciones como de los viajes de negocios, ferias, eventos importantes en el Perú. Contamos con productos para viajes de promoción o estudiantiles así como para el adulto mayor, viajes religiosos, de aventura, de relax, culturales y gastronómicos.'
+  "
+/>
 <div class="servicios-container-items">
   @for (Tarjeta of item.id_tarjeta_servicio; track $index) {
   <app-servicios-tarjeta

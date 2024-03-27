@@ -1,15 +1,15 @@
 {
   "data": [
     {
-      "id_item_nosotros": 1,
-      "titulo_nosotros": "NOSOTROS",
-      "texto_detalle": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem inventore voluptas quia officiis nemo repellendus maiores cumque, voluptatibus doloremque, ad, molestias sit quis! Vel unde velit assumenda optio non facilis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem inventore voluptas quia officiis nemo repellendus maiores cumque, voluptatibus doloremque, ad, molestias sit quis! Vel unde velit assumenda optio non facilis!",
+      "nosotrosobjetivosids": 1,
+      "nosotrostitulo": "NOSOTROS",
+      "textoDetalle": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem inventore voluptas quia officiis nemo repellendus maiores cumque, voluptatibus doloremque, ad, molestias sit quis! Vel unde velit assumenda optio non facilis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem inventore voluptas quia officiis nemo repellendus maiores cumque, voluptatibus doloremque, ad, molestias sit quis! Vel unde velit assumenda optio non facilis!",
       "clase_bg_item": "bg-imagen-nosotros"
     },
     {
-      "id_item_nosotros": 2,
-      "titulo_nosotros": "OBJETIVOS",
-      "texto_detalle": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem inventore voluptas quia officiis nemo repellendus maiores cumque, voluptatibus doloremque, ad, molestias sit quis! Vel unde velit assumenda optio non facilis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem inventore voluptas quia officiis nemo repellendus maiores cumque, voluptatibus doloremque, ad, molestias sit quis! Vel unde velit assumenda optio non facilis!",
+      "nosotrosobjetivosids": 2,
+      "nosotrostitulo": "OBJETIVOS",
+      "textoDetalle": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem inventore voluptas quia officiis nemo repellendus maiores cumque, voluptatibus doloremque, ad, molestias sit quis! Vel unde velit assumenda optio non facilis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem inventore voluptas quia officiis nemo repellendus maiores cumque, voluptatibus doloremque, ad, molestias sit quis! Vel unde velit assumenda optio non facilis!",
       "clase_bg_item": "bg-imagen-objetivo"
     }
   ]

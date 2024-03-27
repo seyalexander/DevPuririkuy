@@ -1,6 +1,7 @@
 export class nosotrosModel {
-  id_item_nosotros: String | number = '';
-  titulo_nosotros: String = '';
-  texto_detalle: String = '';
+  nosotrosobjetivosid: number | String = 0;
+  nosotrosCodInterno: number = 0;
+  nosotrostitulo: String = '';
+  textoDetalle: String = '';
   clase_bg_item: String = 'bg-imagen-nosotros' && 'bg-imagen-objetivo'
 }

@@ -1,9 +1,9 @@
 <div class="Nosotros-container-wrapper">
-  @for (item of dataNosotros; track $index) {
+  @for (item of dataNosotros; track item.textoDetalle) {
   <app-nosotros-tarjetas
-    [nosotrosClaseImagen]="item.clase_bg_item"
-    [nosotrosTitulo]="item.titulo_nosotros"
-    [nosotrosParrafo]="item.texto_detalle"
+    [nosotrosClaseImagen]="(item.nosotrosCodInterno===1)?'bg-imagen-nosotros':'bg-imagen-objetivo'"
+    [nosotrosTitulo]="item.nosotrostitulo"
+    [nosotrosParrafo]="item.textoDetalle"
   />
   }
 </div>

@@ -11,4 +11,5 @@ import { NosotrosTarjetasComponent } from '../../Components/targets/nosotros/nos
 })
 export class NosotrosComponent {
   @Input() dataNosotros: Array<nosotrosModel> = [];
+
 }

@@ -23,15 +23,65 @@ article {
 .Inicio {
   width: 100%;
   margin-bottom: 4rem;
+  position: relative;
 }
 
 .container-inicio {
   width: 100%;
+  position: relative;
 }
 
 .container-inicio img {
   width: 100%;
   filter: brightness(45%);
+}
+
+.container-inicio-detalle {
+  position: absolute;
+  height: 100%;
+  top: 2.5rem;
+  margin-bottom: 4rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10vw;
+}
+
+.grupo-container-inicio-detalle {
+}
+
+.grupo-container-inicio-detalle h1 {
+  font-size: 6rem;
+  font-weight: 800;
+  color: #FFB135;
+  margin: 0;
+  padding: 0;
+}
+
+.grupo-container-inicio-detalle h3 {
+  font-size: 2rem;
+  color: white;
+}
+
+.container-inicio-detalle a {
+  width: 15rem;
+  height: 2.5rem;
+  border-radius: 4px;
+  display: grid;
+  place-items: center;
+  text-decoration: none;
+  background-color: #FFB135;
+  color: white;
+  font-weight: 600;
+  margin-top: 2rem;
+  transition: all 0.3s ease;
+}
+
+.container-inicio-detalle a:hover {
+  background-color: #c08628;
+  transition: all 0.3s ease;
 }
 
 /*---------------------------- NOSOTROS -----------------------------*/
@@ -91,7 +141,7 @@ app-nosotros {
 /*---------------------------- VENTAJAS ----------------------------*/
 .ventajas {
   flex-direction: column;
-  margin: 2rem 0;
+
   gap: 2rem;
   padding: 4rem 24px;
   background: linear-gradient(
@@ -102,6 +152,14 @@ app-nosotros {
     rgb(82, 207, 188),
     rgb(67, 183, 162)
   );
+}
+
+.otros-servicios {
+  padding: 3rem 24px;
+}
+
+.Contacto {
+  padding: 3rem 24px;
 }
 
 @media (max-width: 320px) {

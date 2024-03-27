@@ -7,27 +7,27 @@
       "id_tarjeta_servicio": [
         {
           "servicioTarjetaModel_id": 1,
-          "servicioTarjetaModel_detalle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit soluta perferendis explicabo",
-          "servicioTarjetaModel_precio": "2025.00",
-          "servicioTarjetaModel_lugares": "Lima - Trujillo - Cusco"
+          "servicioTarjetaModel_detalle": "Una hermosa caminata de un día, donde se puede visitar hermosas lagunas que se encuentra cerca de las montañas de Ausangate y Ayangate.",
+          "servicioTarjetaModel_precio": "TOUR 7 LAGUNAS",
+          "servicioTarjetaModel_lugares": "Azulcocha - Otorongo  - Pucacocha - Alqacocha  - Q’omercocha - Orqo Otorongo - China Otorong"
         },
         {
-          "servicioTarjetaModel_id": 2,
-          "servicioTarjetaModel_detalle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit soluta perferendis explicabo",
-          "servicioTarjetaModel_precio": "1975.00",
-          "servicioTarjetaModel_lugares": "Lima - Ica - Cusco"
+          "servicioTarjetaModel_id": 1,
+          "servicioTarjetaModel_detalle": "Una hermosa caminata de un día, donde se puede visitar hermosas lagunas que se encuentra cerca de las montañas de Ausangate y Ayangate.",
+          "servicioTarjetaModel_precio": "TOUR 7 LAGUNAS",
+          "servicioTarjetaModel_lugares": "Azulcocha - Otorongo  - Pucacocha - Alqacocha  - Q’omercocha - Orqo Otorongo - China Otorong"
         },
         {
-          "servicioTarjetaModel_id": 3,
-          "servicioTarjetaModel_detalle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit soluta perferendis explicabo",
-          "servicioTarjetaModel_precio": "6842.00",
-          "servicioTarjetaModel_lugares": "Lima - Arequipa - Cusco"
+          "servicioTarjetaModel_id": 1,
+          "servicioTarjetaModel_detalle": "Una hermosa caminata de un día, donde se puede visitar hermosas lagunas que se encuentra cerca de las montañas de Ausangate y Ayangate.",
+          "servicioTarjetaModel_precio": "TOUR 7 LAGUNAS",
+          "servicioTarjetaModel_lugares": "Azulcocha - Otorongo  - Pucacocha - Alqacocha  - Q’omercocha - Orqo Otorongo - China Otorong"
         },
         {
-          "servicioTarjetaModel_id": 4,
-          "servicioTarjetaModel_detalle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit soluta perferendis explicabo",
-          "servicioTarjetaModel_precio": "4851.00",
-          "servicioTarjetaModel_lugares": "Lima - Cajamarca - Cusco"
+          "servicioTarjetaModel_id": 1,
+          "servicioTarjetaModel_detalle": "Una hermosa caminata de un día, donde se puede visitar hermosas lagunas que se encuentra cerca de las montañas de Ausangate y Ayangate.",
+          "servicioTarjetaModel_precio": "TOUR 7 LAGUNAS",
+          "servicioTarjetaModel_lugares": "Azulcocha - Otorongo  - Pucacocha - Alqacocha  - Q’omercocha - Orqo Otorongo - China Otorong"
         }
       ]
     }
