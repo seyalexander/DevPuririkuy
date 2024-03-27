@@ -7,15 +7,15 @@
       "id_tarjeta_promociones": [
         {
           "promocionesTarjetaModel_id" : 1,
-          "promocionesTarjetaModel_imagen": "https://seyalexander.github.io/DevPuririkuy/assets/img/promociones.jpg"
+          "promocionesTarjetaModel_imagen": "https://seyalexander.github.io/DevPuririkuy/assets/img/item-promocion.png"
         },
         {
           "promocionesTarjetaModel_id" : 2,
-          "promocionesTarjetaModel_imagen": "https://seyalexander.github.io/DevPuririkuy/assets/img/promociones.jpg"
+          "promocionesTarjetaModel_imagen": "https://seyalexander.github.io/DevPuririkuy/assets/img/item-promocion.png"
         },
         {
           "promocionesTarjetaModel_id" : 3,
-          "promocionesTarjetaModel_imagen": "https://seyalexander.github.io/DevPuririkuy/assets/img/promociones.jpgg"
+          "promocionesTarjetaModel_imagen": "https://seyalexander.github.io/DevPuririkuy/assets/img/item-promocion.png"
         },
         {
           "promocionesTarjetaModel_id" : 4,
