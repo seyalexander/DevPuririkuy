@@ -10,11 +10,11 @@
 }
 
 .Nosotros-container-item {
-  height: 50rem;
+  height: auto;
 }
 
 .Nosotros-bg-nosotros {
-  height: 50%;
+  height: 15rem;
   overflow: hidden;
 }
 
@@ -50,6 +50,7 @@
 }
 
 .container-texto {
+  height: auto;
   padding: 2rem 2rem;
 }
 

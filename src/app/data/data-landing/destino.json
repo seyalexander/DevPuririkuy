@@ -8,14 +8,14 @@
         {
           "destinoTarjetaModel_id": 1,
           "destinoTarjetaModel_lugar_tour": "MACHUPICCHU",
-          "destinoTarjetaModel_descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nobis exercitationem ad! Consectetur quisquam dolorum voluptatem accusamus dolore placeat nobis quidem maxime dignissimos, animi eos est quasi recusandae nulla facilis.",
+          "destinoTarjetaModel_descripcion": "es el sitio arqueológico inca más sobresaliente debido a su creativo diseño urbano, la belleza de su arquitectura y el fino trabajo en piedra de sus construcciones.",
           "destinoTarjetaModel_Visitas": 13,
           "destinoTarjetaModel_imagen": "https://seyalexander.github.io/DevPuririkuy/assets/img/img-destinos.jpg"
         },
         {
           "destinoTarjetaModel_id": 2,
           "destinoTarjetaModel_lugar_tour": "LAGUNA AZULCOCHA",
-          "destinoTarjetaModel_descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nobis exercitationem ad! Consectetur quisquam dolorum voluptatem accusamus dolore placeat nobis quidem maxime dignissimos, animi eos est quasi recusandae nulla facilis.",
+          "destinoTarjetaModel_descripcion": "La laguna Azulcocha está ubicada al norte de la Cordillera Huayhuash, muy conocida por los excursionistas y considerada una de las caminatas más hermosas del mundo.",
           "destinoTarjetaModel_Visitas": 8,
           "destinoTarjetaModel_imagen": "https://seyalexander.github.io/DevPuririkuy/assets/img/img-destinos.jpg"
         },
