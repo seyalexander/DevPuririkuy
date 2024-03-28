@@ -52,8 +52,8 @@
 }
 
 .contacto-container-imagen-fondo {
-  width: 20rem;
-  height: max-content;
+  width: auto;
+  height: 18rem;
   background-color: antiquewhite;
   border-radius: 10px;
   overflow: hidden;
