@@ -19,6 +19,10 @@ import { NosotrosComponent } from './layouts/nosotros/nosotros.component';
 import { PromocionesComponent } from './layouts/promociones/promociones.component';
 import { OtrosServiciosComponent } from './layouts/otros-servicios/otros-servicios.component';
 import { ContactoComponent } from './layouts/contacto/contacto.component';
+import { VentajasService } from '../../core/services/landing-page/ventajas/ventajas.service';
+import { OtrosServiciosService } from '../../core/services/landing-page/otrosServicios/otros-servicios.service';
+import { ventajasModel } from '../../core/models/landing-page/ventajas.model';
+import { otrosServiciosModel } from '../../core/models/landing-page/otrosServicios.model';
 
 @Component({
   selector: 'app-home-landing',
@@ -45,9 +49,8 @@ export class HomeLandingComponent {
   datosServicios: Array<serviciosModel> = [];
   datosDestinos: Array<destinoModel> = [];
   datosPromociones: Array<promocionesModel> = [];
-
-  datosNosotros$ :Observable<nosotrosModel[]> = of([]);
-
+  datosVentajas: Array<ventajasModel> = [];
+  datosOtrosServicios: Array<otrosServiciosModel> = [];
   listObservers$: Array<Subscription> = [];
 
 
@@ -55,11 +58,13 @@ export class HomeLandingComponent {
     private nosotrosService: NosotrosService,
     private servicioService: ServiciosService,
     private destinosService: DestinosService,
-    private promocionesService: PromocionesService
+    private promocionesService: PromocionesService,
+    private ventajasService: VentajasService,
+    private otrosServiciosService: OtrosServiciosService
   ) { }
 
   ngOnInit(): void {
-    this.datosNosotros$ = this.nosotrosService.getNosotros();
+
     const ObservarDatosNosotros = this.nosotrosService.datosNosotros$.subscribe(Response => {
       this.datosNosotros = Response
     })
@@ -76,6 +81,13 @@ export class HomeLandingComponent {
       this.datosPromociones = Response
     })
 
+    const ObservarDatosVentajas = this.ventajasService.datosVentajas$.subscribe(Response => {
+      this.datosVentajas = Response
+    })
+
+    const ObservarDatosOtrosServicios = this.otrosServiciosService.datosOtrosServicios$.subscribe(Response => {
+      this.datosOtrosServicios = Response
+    })
 
   }
 
