@@ -10,7 +10,7 @@ import { environment } from '../../../../../environments/environment';
 })
 export class NosotrosService {
 
-  private url: string = 'http://localhost:8090/Puririkuy'
+  private url: string = environment.urlApi
 
 
 
